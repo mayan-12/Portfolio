@@ -1,0 +1,417 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+  /************** HEADER **************/
+  #header-nav {
+    background-color: #000000;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0px;
+  }
+  
+  #logo-img {
+    background: url('images/Mask.png');
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 10px 0;
+    background-size: contain;
+  }
+  
+  #nav-list {
+    margin-top: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  #nav-list a {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.15em;
+    padding: 10px 0px 10px 50px;
+    opacity: .8;
+  }
+  #nav-list a:hover {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+   
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: none;
+    color: #ffffff;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: 10px;
+  }
+  /************** END HEADER **************/
+  
+
+  /************** FOOTER **************/
+  footer.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: rgb(0, 0, 0);
+    border-top: 0;
+    height: 40vh;
+  }
+
+  #talk {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #talk h2 {
+    font-family: 'Poppins' , sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+  }
+  #talk p {
+    font-family: 'Poppins' , sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 1.1em;
+    opacity: .87;
+  }
+
+  #social {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #social h2 {
+    font-family: 'Poppins' , sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+
+  /************** END FOOTER **************/
+  
+  
+  /************** SCROLL **************/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  section::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 80%;
+  }
+  
+  .demo a {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #ffffff;
+    font : normal 400 'Montserrat', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+    opacity: .7;
+  }
+  .demo a:hover {
+    opacity: 1;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font : normal 400 'Montserrat', sans-serif;
+  }
+  
+  #scroll a {
+    padding-top: 60px;
+  }
+  #scroll a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 50px;
+    margin-left: -15px;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  #scroll a span::before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    box-sizing: border-box;
+  }
+  /************** SCROLL **************/
+
+
+  /************** HOME PAGE **************/
+  
+  /* Intro*/
+  #intro {
+    background-color: black;
+    font-family: 'Montserrat' , sans-serif;
+    color: blanchedalmond;
+    height: 80vh;
+    margin-bottom: 200px;
+  }
+  #intro h1 {
+    font-family: 'Montserrat' , sans-serif;
+    margin: 0px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3.5em;
+  }
+  #intro h4 {
+    font-family: 'Montserrat' , sans-serif;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  /* Intro */
+
+  /* Portfolio cards */
+  #PPcover, #DEcover, #DTcover {
+    height: 200%;
+    width: 80%;
+    margin-left: 10%;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+    border: 0px ;
+    overflow: hidden;
+    box-shadow: 5px 10px 15px #ebebeb;
+  }
+  #PPcover span, #DEcover span, #DTcover span {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 2em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    opacity: .8;
+  }
+
+  #PPcover h5, #DEcover h5, #DTcover h5 {
+    opacity: .54;
+    margin-left: 5%;
+  }
+  #PPcover h2, #DEcover h2, #DTcover h2 {
+    font-weight: bolder;
+    margin: 10px 0px 10px 0px;
+    margin-left: 5%;
+    font-size: 1em;
+  }
+  #PPcover h6, #DEcover h6, #DTcover h6 {
+    font-weight: 500;
+    font-size: .5em;
+    margin: 10px 0px 10px 5%;
+    opacity: .87;
+  }
+
+  .image-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0;
+  }
+  img {
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image-wrapper:hover img {
+    transform: scale(1.1);
+  }
+  /* Portfolio cards */
+  /************** END HOME PAGE **************/
+  
+
+
+  /************** ABOUT PAGE **************/
+  #about {
+    height: 90vh;
+    width: 99vw;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+
+    background: url(images/About.png);
+    background-position: top center;
+    background-size: cover;
+  }
+
+  #profile {
+    height: 70vh;
+    width: 80%;
+    margin-left: 36%;
+    margin-top: 16%;
+
+    background: url(images/Profile.png);
+    background-position: center top;
+    background-size: cover;
+  }
+
+  #explain {
+    height: 70vh;
+    width: 65%;
+    margin-left: 15%;
+    margin-right: 40%;
+    margin-top: 8%;
+    color: cornsilk;
+  }
+  #explain p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+
+  }
+  #explain h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 900;
+    text-justify: auto;
+  }
+
+  /************** END ABOUT PAGE **************/
+  
+  
+
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    .container .jumbotron {
+      background: url('../images/jumbotron_1200.jpg') no-repeat;
+      height: 675px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #logo-img {
+      background: url('../images/restaurant-logo_medium.png') no-repeat;
+      width: 100px;
+      height: 100px;
+      margin: 5px 5px 5px 0;
+    }
+    /* End Header */
+  
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/jumbotron_992.jpg') no-repeat;
+      height: 558px;
+    }
+    /* End Home Page */
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    .container .jumbotron {
+      background: url('../images/jumbotron_768.jpg') no-repeat;
+      height: 432px;
+    }
+    /* End Home Page */
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+      font-size: 1em;
+      margin-right: 5px;
+    }
+    /* End Header */
+  
+    /* Footer */
+    .panel-footer section {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .panel-footer section:nth-child(3) {
+      margin-bottom: 0; /* margin already exists on the whole row */
+    }
+    .panel-footer section hr {
+      width: 50%;
+    }
+    /* End Footer */
+  
+    /* Home Page */
+    .container .jumbotron {
+      margin-top: 30px;
+      padding: 0;
+    }
+    #PPcover, #specials-tile {
+      width: 360px;
+      margin: 0 auto 15px;
+    }
+  
+    .menu-item-photo {
+      margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+      text-align: center;
+    }
+    .menu-item-description {
+      text-align: center;;
+    }
+  }
+  
+  
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+  @media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    /* End Header */
+    
+    /* Home page */
+    #menu-tile, #specials-tile {
+      width: 280px;
+      margin: 0 auto 15px;
+    }
+  
+    .col-xxs-12 {
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+      float: left;
+      width: 100%;
+    }
+  }
+  
