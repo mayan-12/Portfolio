@@ -51,22 +51,24 @@ body {
 
   /************** FOOTER **************/
   footer.panel-footer {
-    margin-top: 30px;
+    margin-top: 100px;
     padding-top: 35px;
     padding-bottom: 30px;
     background-color: rgb(0, 0, 0);
     border-top: 0;
-    height: 40vh;
+    height: auto;
   }
 
   #talk {
-    width: 80%;
+    width: 70%;
     margin-left: 10%;
   }
   #talk h2 {
     font-family: 'Poppins' , sans-serif;
     color: #ffffff;
     font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: 30px;
   }
   #talk p {
     font-family: 'Poppins' , sans-serif;
@@ -74,6 +76,15 @@ body {
     font-weight: 100;
     font-size: 1.2em;
     opacity: .87;
+    line-height: 1.5em;
+  }
+  #talk a {
+    font-size: 1.1em;
+  }
+  #talk a:hover {
+    font-size: 1.1em;
+    text-decoration: none;
+    display: inline-block;
   }
 
   #social {
@@ -83,10 +94,26 @@ body {
   #social h2 {
     font-family: 'Poppins' , sans-serif;
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
   }
 
-
+  .image-wrapper-2 {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    font-size: 0;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+  }
+  img {
+    max-width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image-wrapper-2:hover img {
+    transform: scale(1.25);
+  }
   /************** END FOOTER **************/
   
   
@@ -115,7 +142,7 @@ body {
   .demo a {
     position: absolute;
     left: 50%;
-    bottom: 50%;
+    bottom: 60%;
     z-index: 2;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -161,16 +188,16 @@ body {
     border-radius: 100%;
     box-sizing: border-box;
   }
-  /************** SCROLL **************/
+  /************** END SCROLL **************/
 
 
   /************** HOME PAGE **************/
   
-  /* Intro*/
+  /*** Intro ***/
   #intro {
     background-color: black;
-    font-family: 'Montserrat' , sans-serif;
-    color: blanchedalmond;
+    font-family: 'Poppins' , sans-serif;
+    color: #ffffff;
     height: 80vh;
     margin-bottom: 200px;
   }
@@ -181,22 +208,23 @@ body {
     padding-bottom: 30px;
     font-weight: 900;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3.6em;
   }
   #intro h4 {
     font-family: 'Montserrat' , sans-serif;
     margin: 0px;
     padding-top: 0px;
     padding-bottom: 30px;
-    padding-left: 200px;
-    padding-right: 200px;
-    font-weight: 500;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: 100;
     text-align: center;
     font-size: 1.4em;
+    line-height: 1.5em;
   }
-  /* Intro */
+  /*** Intro ***/
 
-  /* Portfolio cards */
+  /*** Portfolio cards ***/
   #PPcover, #DEcover, #DTcover {
     height: 200%;
     width: 80%;
@@ -255,7 +283,86 @@ body {
   .image-wrapper:hover img {
     transform: scale(1.1);
   }
-  /* Portfolio cards */
+  /*** Portfolio cards ***/
+
+  /*** Plugin card ***/
+  #plugin {
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    align-self: center;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+    border: 0px ;
+    overflow: hidden;
+    box-shadow: 5px 10px 15px #ebebeb;
+  }
+  #plugin {
+    background-image: url(images/Plugin.png);
+    background-size: cover;
+  }
+  #plugin span {
+    position: relative;
+    bottom: -100px;
+    width: 100%;
+    height: 0em;
+    text-align: left;
+    font-size: 2em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    color: #ffffff;
+    opacity: .8;
+  }
+
+  #plugin h5 {
+    opacity: .54;
+    margin-left: 5%;
+    font-size: .55em;
+    font-weight: 100;
+  }
+  #plugin h2 {  
+    font-weight: 800;
+    margin: 2% 0px 15px 0px;
+    margin-left: 5%;
+    font-size: 1.1em;
+  }
+  #plugin h6 {
+    font-weight: 100;
+    font-size: .5em;
+    margin: 3% 60% 10px 5%;
+    opacity: .87;
+    line-height: 1.7em;
+  }
+
+  #CTA {
+    border: 2px #ffffff;
+    font-family: 'Poppins' , sans-serif;
+    font-size: .5em;
+    margin-left: 5%;
+    /* font-weight: 500; */
+    margin-top: 3%;
+  }
+  #CTA a {
+    background-color: #2B2D2F;
+    color: #ffffff;
+    border: 1.5px solid #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: 300;
+  }
+  #CTA a:hover {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ffffff;
+    color: #2B2D2F;
+    font-weight: 700;
+  }
+  /*** Plugin card ***/
+
   /************** END HOME PAGE **************/
   
 
@@ -286,17 +393,18 @@ body {
 
   #explain {
     height: 70vh;
-    width: 65%;
+    width: 60%;
     margin-left: 15%;
     margin-right: 40%;
-    margin-top: 8%;
+    margin-top: 10%;
     color: cornsilk;
   }
   #explain p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    font-weight: 500;
-
+    font-size: 1.4em;
+    font-weight: 100;
+    line-height: 1.5em;
+    text-align: justify;
   }
   #explain h2 {
     font-family: 'Montserrat', sans-serif;
