@@ -419,9 +419,9 @@ body {
 
   /********** Large devices only **********/
   @media (min-width: 1200px) {
-    .container .jumbotron {
-      background: url('../images/jumbotron_1200.jpg') no-repeat;
-      height: 675px;
+    #plugin {
+      background-image: url(images/Plugin.png);
+      background-size: cover;
     }
   }
   
@@ -437,9 +437,17 @@ body {
     /* End Header */
   
     /* Home Page */
-    .container .jumbotron {
-      background: url('../images/jumbotron_992.jpg') no-repeat;
-      height: 558px;
+    #plugin {
+      height: 370px;
+    }
+    #plugin {
+      background-image: url(images/Plugin-md.png);
+      background-size: cover;
+    }
+    #plugin span {
+      position: relative;
+      bottom: -40px;
+      width: 100%;
     }
     /* End Home Page */
   }
@@ -447,9 +455,20 @@ body {
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
     /* Home Page */
-    .container .jumbotron {
-      background: url('../images/jumbotron_768.jpg') no-repeat;
-      height: 432px;
+    #plugin {
+      height: 320px;
+    }
+    #plugin {
+      background-image: url(images/Plugin-sm.png);
+      background-size: cover;
+    }
+    #plugin span {
+      position: relative;
+      bottom: 0px;
+      width: 100%;
+    }
+    #plugin h6 {
+      margin-right:50%;
     }
     /* End Home Page */
   }
@@ -480,26 +499,32 @@ body {
     /* End Footer */
   
     /* Home Page */
-    .container .jumbotron {
-      margin-top: 30px;
-      padding: 0;
-    }
     #PPcover, #DEcover {
       width: 360px;
-      margin: 0 auto 15px;
+      margin: 15px auto 15px;
     }
   
-    .menu-item-photo {
-      margin-right: auto;
+    #plugin {
+      height: 500px;
+      width: 360px;
+      margin: 10px auto 10px auto;
     }
-    .menu-item-tile .menu-item-price {
-      text-align: center;
+    #plugin {
+      background-image: url(images/Plugin-xs.png);
+      background-size: cover;
     }
-    .menu-item-description {
-      text-align: center;;
+    #plugin span {
+      position: relative;
+      bottom: 10px;
+      width: 100%;
     }
+    #plugin h6 {
+      margin-right: 10%;
+    }
+    
   }
   
+
   
   /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
   @media (max-width: 479px) {
@@ -523,6 +548,11 @@ body {
       padding-left: 15px;
       float: left;
       width: 100%;
+    }
+
+    #plugin {
+      background-image: url(images/Plugin-xs.png);
+      background-size: cover;
     }
   }
   
