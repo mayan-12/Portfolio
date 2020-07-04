@@ -4,6 +4,7 @@ body {
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
   }
+
   
 
   /************** HEADER **************/
@@ -48,6 +49,7 @@ body {
   }
   /************** END HEADER **************/
   
+
 
   /************** FOOTER **************/
   footer.panel-footer {
@@ -99,23 +101,13 @@ body {
     margin-top: 30px;
   }
 
-  .image-wrapper-2 {
-    margin: 0 auto;
-    width: 100%;
-    overflow: hidden;
-    font-size: 0;
-    background-color: #ffffff;
-    border: 2px solid #000000;
-  }
-  img {
-    max-width: 100%;
-    transition: transform 0.3s ease-in-out;
-  }
-  .image-wrapper-2:hover img {
-    transform: scale(1.25);
-  }
+ #behance {
+  color: #ffffff;
+ }
+
   /************** END FOOTER **************/
   
+
   
   /************** SCROLL **************/
   * {
@@ -191,8 +183,10 @@ body {
   /************** END SCROLL **************/
 
 
+
   /************** HOME PAGE **************/
   
+
   /*** Intro ***/
   #intro {
     background-color: black;
@@ -223,6 +217,7 @@ body {
     line-height: 1.5em;
   }
   /*** Intro ***/
+
 
   /*** Portfolio cards ***/
   #PPcover, #DEcover, #DTcover {
@@ -284,6 +279,7 @@ body {
     transform: scale(1.1);
   }
   /*** Portfolio cards ***/
+
 
   /*** Plugin card ***/
   #plugin {
@@ -363,25 +359,39 @@ body {
   }
   /*** Plugin card ***/
 
+
+  /*** Blogs card ***/
+  #blog {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #blog h3 {
+    font-family: 'Poppins' , sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  /*** Blogs card ***/
+
+
   /************** END HOME PAGE **************/
   
 
 
   /************** ABOUT PAGE **************/
   #about {
-    height: 90vh;
-    width: 99vw;
+    height: 650px;
+    /* width: 100vw; */
     margin-bottom: 15px;
     position: relative;
     overflow: hidden;
-
-    background: url(images/About.png);
+    background-color: black;
+    /* background: url(images/About.png);
     background-position: top center;
-    background-size: cover;
+    background-size: cover; */
   }
 
   #profile {
-    height: 70vh;
+    height: 500px;
     width: 80%;
     margin-left: 36%;
     margin-top: 16%;
@@ -392,10 +402,8 @@ body {
   }
 
   #explain {
-    height: 70vh;
-    width: 60%;
-    margin-left: 15%;
-    margin-right: 40%;
+    width: 61%;
+    margin-left: 20%;
     margin-top: 10%;
     color: cornsilk;
   }
@@ -428,12 +436,7 @@ body {
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
     /* Header */
-    #logo-img {
-      background: url('../images/restaurant-logo_medium.png') no-repeat;
-      width: 100px;
-      height: 100px;
-      margin: 5px 5px 5px 0;
-    }
+
     /* End Header */
   
     /* Home Page */
@@ -450,6 +453,22 @@ body {
       width: 100%;
     }
     /* End Home Page */
+
+    /* About Page */
+    #about {
+      height: 650px;
+      margin-bottom: 15px;
+    }
+    #profile {
+      height: 500px;
+      margin-left: 30%;
+      width: 90%;
+    }
+    #explain {
+      margin-left: 18%;
+      width: 70%;
+    }
+    /*End About Page */
   }
   
   /********** Small devices only **********/
@@ -471,6 +490,23 @@ body {
       margin-right:50%;
     }
     /* End Home Page */
+
+    /* About Page */
+    #about {
+      height: 1500px;
+      margin-bottom: 15px;
+    }
+    #profile {
+      height: 700px;
+      margin-left: 20%;
+      width: 60%;
+    }
+    #explain {
+      margin-left: 20%;
+      width: 60%;
+    }
+    /* End About Page */
+
   }
   
   /********** Extra small devices only **********/
@@ -521,6 +557,23 @@ body {
     #plugin h6 {
       margin-right: 10%;
     }
+    /* End Home Page */
+
+    /* About Page */
+    #about {
+      height: 1500px;
+      margin-bottom: 15px;
+    }
+    #profile {
+      height: 700px;
+      margin-left: 20%;
+      width: 60%;
+    }
+    #explain {
+      margin-left: 20%;
+      width: 60%;
+    }
+    /* End About Page */
     
   }
   
