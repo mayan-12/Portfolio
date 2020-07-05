@@ -220,6 +220,14 @@ body {
 
 
   /*** Portfolio cards ***/
+  #main-content h3 {
+    font-size: 3.5em;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10%;
+  }
+
   #PPcover, #DEcover, #DTcover {
     height: 200%;
     width: 80%;
@@ -364,11 +372,39 @@ body {
   #blog {
     width: 90%;
     margin-left: 5%;
+    margin-top: 10%;
   }
-  #blog h3 {
+  #blog h2 {
     font-family: 'Poppins' , sans-serif;
-    font-size: 1.5em;
-    font-weight: 700;
+    font-size: 1.7em;
+    font-weight: 900;
+    line-height: 1.4em;
+    color: black;
+    opacity: .87;
+  }
+  #CTA2 {
+    border: 2px #000000;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 1.1em;
+    /* margin-left: 5%; */
+    /* font-weight: 500; */
+    margin-top: 8%;
+  }
+  #CTA2 a {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1.5px solid #000000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 500;
+  }
+  #CTA2 a:hover {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 400;
   }
   /*** Blogs card ***/
 
