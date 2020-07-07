@@ -19,7 +19,7 @@ body {
     background: url('images/Mask.png');
     width: 50px;
     height: 50px;
-    margin: 15px 15px 10px 0;
+    margin: 15px 15px 10px 15px;
     background-size: contain;
   }
   
@@ -44,8 +44,8 @@ body {
     color: #ffffff;
   }
   .navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: 10px;
+    /* clear: both; */
+    margin-top: 20px;
   }
   /************** END HEADER **************/
   
@@ -520,6 +520,7 @@ body {
   #explain2 {
     width: 55%;
     margin-left: 18%;
+    margin-right: 0%;
     margin-top: 10%;
     color: #000000;
   }
@@ -589,6 +590,12 @@ body {
   
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+    #logo-img {
+      margin: 15px 15px 10px 15px;
+    }
+    /* End Header */
+
     /* Home Page */
     #plugin {
       height: 320px;
@@ -705,11 +712,6 @@ body {
     /* End Header */
     
     /* Home page */
-    #menu-tile, #specials-tile {
-      width: 280px;
-      margin: 0 auto 15px;
-    }
-  
     .col-xxs-12 {
       position: relative;
       min-height: 1px;
