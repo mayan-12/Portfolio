@@ -82,11 +82,16 @@ body {
   }
   #talk a {
     font-size: 1.1em;
+    line-height: 2.4em;
+    color: aqua;
+    opacity: .7;
   }
   #talk a:hover {
     font-size: 1.1em;
     text-decoration: none;
     display: inline-block;
+    color: aqua;
+    opacity: 1;
   }
 
   #social {
