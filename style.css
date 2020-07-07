@@ -101,8 +101,41 @@ body {
     margin-top: 30px;
   }
 
- #behance {
-  color: #ffffff;
+ #behance , #dribbble , #medium , #instagram , #linkedin , #github{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #2B2D2F;
+ }
+ #behance:hover {
+   background-color: #053eff;
+ }
+ #dribbble:hover {
+  background-color: #ea4c89;
+ }
+ #medium:hover {
+  background-color: #000000;
+ }
+ #instagram:hover {
+  background-image: url(images/insta-bg.jpg);
+  background-size: cover;
+ }
+ #linkedin:hover {
+  background-color: #0e76a8;
+ }
+ #github:hover {
+  background-color: #2dba4e;
+ }
+ #dribbble img , #medium img , #instagram img , #linkedin img , #github img{
+  padding: 25% 25% 25% 25%;
+  /* margin: 10% 10% 10% 10%; */
+ }
+ #behance img {
+  padding: 35% 25% 25% 25%;
+ }
+ #behance img:hover ,#dribbble img:hover , #medium img:hover , #instagram img:hover , #linkedin img:hover , #github img:hover {
+  transition: transform 0.4s ease-out;
+  transform: rotateZ(360deg) scale(.9);
  }
 
   /************** END FOOTER **************/
@@ -407,7 +440,6 @@ body {
     font-weight: 400;
   }
   /*** Blogs card ***/
-
 
   /************** END HOME PAGE **************/
   
