@@ -659,6 +659,23 @@ body {
     }
     /* End About Page */
 
+    /* Footer */
+    #talk {
+      width: 80%;
+      margin-left: 0%;
+    }
+    #social {
+      width: 90%;
+      margin-left: 10%;
+    }
+    #behance , #dribbble , #medium , #instagram , #linkedin , #github{
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      background-color: #2B2D2F;
+     }
+    /* End Footer */
+
   }
   
   /********** Extra small devices only **********/
@@ -740,6 +757,17 @@ body {
       width: 80%;
     }
     /* End About Page */
+
+    /* Footer */
+    #talk {
+      width: 80%;
+      margin-left: 10%;
+    }
+    #social {
+      width: 80%;
+      margin-left: 10%;
+    }
+    /* End Footer */
     
   }
   
@@ -798,5 +826,22 @@ body {
       width: 80%;
     }
     /*End About page */
+
+    /* Footer */
+    #talk {
+      width: 80%;
+      margin-left: 10%;
+    }
+    #social {
+      width: 80%;
+      margin-left: 10%;
+    }
+    #behance , #dribbble , #medium , #instagram , #linkedin , #github{
+      width: 40px;
+      height: 40px;
+      border-radius: 25px;
+      background-color: #2B2D2F;
+     }
+    /* End Footer */
   }
   
