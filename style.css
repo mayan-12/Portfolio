@@ -38,7 +38,8 @@ body {
     transform: scale(1.05);
     opacity: 1;
   }
-   
+
+
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: none;
     color: #ffffff;
@@ -47,6 +48,7 @@ body {
     /* clear: both; */
     margin-top: 20px;
   }
+
   
   /************** END HEADER **************/
   
@@ -242,7 +244,7 @@ body {
     font-family: 'Muli' , sans-serif;
     color: #ffffff;
     height: 90vh;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   #intro h1 {
     /* font-family: 'Montserrat' , sans-serif; */
@@ -300,7 +302,7 @@ body {
     font-family: 'Poppins' , sans-serif;
     font-weight: 900;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   #PPcover, #DEcover, #DTcover {
