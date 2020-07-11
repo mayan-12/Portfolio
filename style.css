@@ -48,8 +48,18 @@ body {
     /* clear: both; */
     margin-top: 20px;
   }
+  .navbar-default button.navbar-toggle .icon-bar {
+    background-color: #fff;
+  } 
+  .navbar-header button.navbar-toggle:hover {
+    /* clear: both; */
+    margin-top: 20px;
+    background-color: aqua;
+  }
+  .navbar-default button.navbar-toggle .icon-bar:hover {
+    background-color: #000000;
+  }
 
-  
   /************** END HEADER **************/
   
 
