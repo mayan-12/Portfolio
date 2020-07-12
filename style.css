@@ -5,8 +5,9 @@ body {
     font-family: 'Poppins', sans-serif;
   }
 
-  
 
+  
+  /************** HEADER **************/
   /************** HEADER **************/
   #header-nav {
     background-color: #000000;
@@ -36,7 +37,7 @@ body {
     background: url('images/Mask.png');
     width: 50px;
     height: 50px;
-    margin: 15px 15px 10px 15px;
+    margin: 15px 15px 10px 10px;
     background-size: contain;
   }
   
@@ -48,7 +49,7 @@ body {
     color: #ffffff;
     text-align: center;
     font-size: 1.15em;
-    padding: 10px 0px 10px 50px;
+    padding: 10px 10px 10px 50px;
     opacity: .8;
   }
   #nav-list a:hover {
@@ -75,9 +76,11 @@ body {
   }
 
   /************** END HEADER **************/
-  
+  /************** END HEADER **************/
 
 
+
+  /************** FOOTER **************/
   /************** FOOTER **************/
   footer.panel-footer {
     margin-top: 150px;
@@ -175,9 +178,11 @@ body {
  }
 
   /************** END FOOTER **************/
-  
+  /************** END FOOTER **************/
 
-  
+
+
+  /************** SCROLL **************/
   /************** SCROLL **************/
   * {
     margin: 0;
@@ -256,9 +261,11 @@ body {
     background-color: aqua;
   }
   /************** END SCROLL **************/
+  /************** END SCROLL **************/
 
 
 
+  /************** HOME PAGE **************/
   /************** HOME PAGE **************/
   
 
@@ -510,9 +517,42 @@ body {
   /*** Blogs card ***/
 
   /************** END HOME PAGE **************/
-  
+  /************** END HOME PAGE **************/
 
 
+
+  /************** END PORTFOLIO PAGES **************/
+  /************** END PORTFOLIO PAGE **************/
+  #portfolio-header {
+    /* height: 650px; */
+    /* width: 100vw; */
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+  }
+  #DEheader {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #portfolio-work {
+    /* height: 650px; */
+    /* width: 100vw; */
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+  #DEwork {
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+
+  /************** END PORTFOLIO PAGE **************/
+  /************** END PORTFOLIO PAGE **************/
+
+
+
+  /************** ABOUT PAGE **************/
   /************** ABOUT PAGE **************/
   #about {
     height: 650px;
@@ -598,9 +638,11 @@ body {
   }
 
   /************** END ABOUT PAGE **************/
-  
+  /************** END ABOUT PAGE **************/
   
 
+
+  /********** Large devices only **********/
   /********** Large devices only **********/
   @media (min-width: 1200px) {
     #plugin {
@@ -609,6 +651,9 @@ body {
     }
   }
   
+
+
+  /********** Medium devices only **********/
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
     /* Header */
@@ -672,6 +717,9 @@ body {
     /*End About Page */
   }
   
+
+
+  /********** Small devices only **********/
   /********** Small devices only **********/
   @media (min-width: 768px) and (max-width: 991px) {
     /* Header */
@@ -757,6 +805,9 @@ body {
 
   }
   
+
+
+  /********** Extra small devices only **********/
   /********** Extra small devices only **********/
   @media (max-width: 767px) {
     /* Header */
@@ -861,7 +912,8 @@ body {
   }
   
 
-  
+
+  /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
   /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
   @media (max-width: 479px) {
     /* Header */
