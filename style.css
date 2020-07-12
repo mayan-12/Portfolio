@@ -908,6 +908,20 @@ body {
       margin-left: 10%;
     }
     /* End Footer */
+
+    /* Portfolio page */
+    #DEheader {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    #DEwork {
+      margin-left: -10%;
+      margin-right: -10%;
+      width: 120%;
+      margin-top: 2%;
+      margin-bottom: 3%;
+    }
+    /* End Portfolio page */
     
   }
   
