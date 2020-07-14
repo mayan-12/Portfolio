@@ -336,6 +336,11 @@ body {
     margin-top: 10%;
   }
 
+  #PPcover img {
+    width: 100%;
+    height: auto;
+  }
+
   #PPcover, #DEcover, #DTcover {
     height: 200%;
     width: 80%;
