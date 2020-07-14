@@ -337,7 +337,7 @@ body {
   }
 
   #PPcover img , #DEcover img{
-    width: 100%;
+    max-width: 100%;
     height: auto;
   }
 
@@ -394,6 +394,7 @@ body {
   }
   img {
     max-width: 100%;
+    height: auto;
     transition: transform 0.3s ease-in-out;
   }
   .image-wrapper:hover img {
