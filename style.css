@@ -336,7 +336,7 @@ body {
     margin-top: 10%;
   }
 
-  #PPcover img {
+  #PPcover img , #DEcover img{
     width: 100%;
     height: auto;
   }
