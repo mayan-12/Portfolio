@@ -336,11 +336,6 @@ body {
     margin-top: 10%;
   }
 
-  /* #PPcover img , #DEcover img{
-    max-width: 100%;
-    height: auto;
-  } */
-
   #PPcover, #DEcover, #DTcover {
     height: auto;
     /* height: 200%; */
@@ -355,8 +350,6 @@ body {
     overflow: hidden;
     box-shadow: 5px 10px 15px #ebebeb;
   }
-
-
   #PPcover span , #DEcover span {
     position: relative;
     bottom: 20px;
@@ -382,8 +375,6 @@ body {
     color: rgb(0, 0, 0);
     opacity: .8;
   } */
-
-
   #PPcover h5, #DEcover h5, #DTcover h5 {
     opacity: .54;
     margin-left: 5%;
@@ -632,9 +623,6 @@ body {
     margin-bottom: 15px;
     position: relative;
     overflow: hidden;
-    /* background: url(images/About.png);
-    background-position: top center;
-    background-size: cover; */
   }
   #profile2 {
     height: 500px;
@@ -666,6 +654,31 @@ body {
     font-weight: 900;
     text-justify: auto;
   }
+
+  /*#about3 {
+    height: 650px;
+    // width: 100vw;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+  #photography {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    color: #000000;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #photography h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 900;
+    text-justify: auto;
+    text-align: center;
+  }*/
 
   /************** END ABOUT PAGE **************/
   /************** END ABOUT PAGE **************/
