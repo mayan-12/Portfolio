@@ -981,6 +981,18 @@ body {
     /* End Header */
     
     /* Home page */
+
+    #PPcover, #DEcover {
+      width: 100%;
+      margin: 15px auto 15px;
+    }
+  
+    #plugin {
+      height: 500px;
+      width: 100%;
+      margin: 10px auto 10px auto;
+    }
+
     .col-xxs-12 {
       position: relative;
       min-height: 1px;
@@ -1039,12 +1051,15 @@ body {
 
     /* Footer */
     #talk {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
     }
     #social {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
+    }
+    #talk a {
+      font-size: 1em;
     }
     #behance , #dribbble , #medium , #instagram , #linkedin , #github{
       width: 40px;
@@ -1067,5 +1082,34 @@ body {
       margin-bottom: 3%;
     }
     /* End Portfolio page */
+  }
+
+
+
+  /********** Super extra extra small devices Only :-) (e.g., even smaller thaniPhone 4) **********/
+  /********** Super extra extra small devices Only :-) (e.g., even smaller than iPhone 4) **********/
+  @media (max-width: 300px) {
+
+    /* Footer */
+    #talk {
+      width: 110%;
+      margin-left: -5%;
+    }
+    #social {
+      width: 110%;
+      margin-left: -5%;
+    }
+    #talk a {
+      font-size: .8em;
+    }
+
+    #behance , #dribbble , #medium , #instagram , #linkedin , #github{
+      width: 30px;
+      height: 30px;
+      border-radius: 25px;
+      background-color: #2B2D2F;
+     }
+    /* End Footer */
+
   }
   
