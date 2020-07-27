@@ -72,7 +72,7 @@ body {
   .navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:active {
     /* clear: both; */
     margin-top: 20px;
-    background-color: aqua;
+    background-color: #808080;
   }
 
   /************** END HEADER **************/
