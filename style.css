@@ -883,14 +883,14 @@ body {
     }
   
     #plugin {
-      height: 520px;
+      height: auto;
       width: 360px;
       margin: 10px auto 10px auto;
     }
-    #plugin {
+    /* #plugin {
       background-image: url(images/Plugin-xs.png);
       background-size: cover;
-    }
+    } */
     #plugin span {
       position: relative;
       bottom: 10px;
@@ -988,7 +988,7 @@ body {
     }
   
     #plugin {
-      height: 500px;
+      height: auto;
       width: 100%;
       margin: 10px auto 10px auto;
     }
@@ -1001,10 +1001,10 @@ body {
       float: left;
       width: 100%;
     }
-    #plugin {
+    /* #plugin {
       background-image: url(images/Plugin-xs.png);
       background-size: cover;
-    }
+    } */
 
     .demo a {
       bottom: 90%;
