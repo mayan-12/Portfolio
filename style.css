@@ -418,7 +418,7 @@ body {
 
 
   /*** Plugin card ***/
-  #plugin {
+  #plugin , #prototype {
     height: 500px;
     width: 90%;
     margin-left: 5%;
@@ -432,11 +432,15 @@ body {
     box-shadow: 5px 10px 15px #ebebeb;
     background-color: #2B2D2F;
   }
-  #plugin {
+  #plugin{
     background-image: url(images/Plugin.png);
     background-size: cover;
   }
-  #plugin span {
+  #prototype {
+    background-image: url(images/CP-Prototype.png);
+    background-size: cover;
+  }
+  #plugin span , #prototype span{
     position: relative;
     bottom: -100px;
     width: 100%;
@@ -692,6 +696,10 @@ body {
       background-image: url(images/Plugin.png);
       background-size: cover;
     }
+    #prototype {
+      background-image: url(images/CP-Prototype.png);
+      background-size: cover;
+    }
   }
   
 
@@ -704,14 +712,18 @@ body {
     /* End Header */
   
     /* Home Page */
-    #plugin {
+    #plugin , #prototype {
       height: 370px;
     }
     #plugin {
       background-image: url(images/Plugin-md.png);
       background-size: cover;
     }
-    #plugin span {
+    #prototype {
+      background-image: url(images/CP-Prototype.png);
+      background-size: cover;
+    }
+    #plugin span , #prototype span{
       position: relative;
       bottom: -40px;
       width: 100%;
@@ -772,14 +784,18 @@ body {
     /* End Header */
 
     /* Home Page */
-    #plugin {
+    #plugin , #prototype {
       height: 320px;
     }
     #plugin {
       background-image: url(images/Plugin-sm.png);
       background-size: cover;
     }
-    #plugin span {
+    #prototype {
+      background-image: url(images/CP-Prototype.png);
+      background-size: cover;
+    }
+    #plugin span , #prototype span {
       position: relative;
       bottom: 0px;
       width: 100%;
@@ -882,7 +898,7 @@ body {
       margin: 15px auto 15px;
     }
   
-    #plugin {
+    #plugin , #prototype {
       height: auto;
       width: 360px;
       margin: 10px auto 10px auto;
@@ -891,7 +907,7 @@ body {
       background-image: url(images/Plugin-xs.png);
       background-size: cover;
     } */
-    #plugin span {
+    #plugin span , #prototype span{
       position: relative;
       bottom: 10px;
       width: 100%;
@@ -987,7 +1003,7 @@ body {
       margin: 15px auto 15px;
     }
   
-    #plugin {
+    #plugin , #prototype{
       height: auto;
       width: 100%;
       margin: 10px auto 10px auto;
